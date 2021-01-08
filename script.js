@@ -1,7 +1,7 @@
 let usName = prompt(' Введите свое имя ')
 let birth = +prompt("Введите год рождения")
 let year = +prompt("Введите нынешный год")
-function age(result) {
+function age() {
     let result = year - birth
     return result
 }
